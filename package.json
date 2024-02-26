@@ -5,7 +5,14 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "lint": "next lint",
+    "lint": "pnpm run lint:eslint --quiet && pnpm run lint:stylelint --quiet",
+    "lint:eslint": "eslint \"./**/*.?(ts|tsx|js)\"",
+    "lint:eslint:fix": "pnpm run lint:eslint --fix",
+    "lint:fix": "pnpm run lint:eslint:fix && pnpm run lint:stylelint:fix",
+    "lint:stylelint": "stylelint '**/*.{css,scss}'",
+    "lint:stylelint:fix": "pnpm run lint:stylelint --fix",
+    "prettier": "prettier --write ./",
+    "prettier:check": "prettier --check ./",
     "start": "next start"
   },
   "dependencies": {
@@ -23,14 +30,15 @@
     "eslint-config-next": "14.1.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-unicorn": "^51.0.1",
-    "eslint-plugin-unused-imports": "^2.0.0",
+    "eslint-plugin-unused-imports": "^3.1.0",
+    "eslint-webpack-plugin": "^4.0.1",
     "prettier": "^3.2.5",
     "sass": "^1.71.1",
     "stylelint": "^16.2.1",
     "stylelint-config-recess-order": "^4.6.0",
-    "stylelint-config-recommended-scss": "^14.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
     "typescript": "^5"
   }
 }

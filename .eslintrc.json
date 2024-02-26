@@ -8,7 +8,6 @@
     "plugin:import/warnings",
     "prettier"
   ],
-  "root": true,
   "overrides": [
     {
       "files": ["*.js"],
@@ -42,15 +41,24 @@
       }
     },
     {
-      "files": ["**/page.tsx"],
+      "files": ["**/page.tsx", "**/layout.tsx"],
       "rules": {
         "import/no-default-export": "off",
         "import/prefer-default-export": "error",
-        "unicorn/filename-case": ["error", { "case": "camelCase" }]
+        "unicorn/filename-case": [
+          "error",
+          {
+            "case": "camelCase"
+          }
+        ]
       }
     }
   ],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
   "plugins": ["react-hooks", "import", "unused-imports", "unicorn"],
+  "root": true,
   "rules": {
     "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/explicit-module-boundary-types": "off",
@@ -111,7 +119,7 @@
     "import/no-unused-modules": [
       "error",
       {
-        "ignoreExports": ["**/*.d.ts"],
+        "ignoreExports": ["**/*.d.ts", "**/page.tsx", "**/layout.tsx"],
         "unusedExports": true
       }
     ],
@@ -130,6 +138,7 @@
         "patterns": ["./", "../", ".."]
       }
     ],
+    "react-hooks/rules-of-hooks": "error",
     "react/jsx-boolean-value": "error",
     "react/self-closing-comp": [
       "error",
@@ -138,7 +147,6 @@
         "html": true
       }
     ],
-    "react-hooks/rules-of-hooks": "error",
     "unicorn/filename-case": "off",
     "unused-imports/no-unused-imports": "error"
   },
