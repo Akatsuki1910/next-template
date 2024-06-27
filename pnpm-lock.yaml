@@ -70,11 +70,11 @@ importers:
         specifier: ^16.6.1
         version: 16.6.1(typescript@5.3.3)
       stylelint-config-recess-order:
-        specifier: ^4.6.0
-        version: 4.6.0(stylelint@16.6.1(typescript@5.3.3))
+        specifier: ^5.0.1
+        version: 5.0.1(stylelint@16.6.1(typescript@5.3.3))
       stylelint-config-standard-scss:
         specifier: ^13.1.0
-        version: 13.1.0(postcss@8.4.35)(stylelint@16.6.1(typescript@5.3.3))
+        version: 13.1.0(postcss@8.4.38)(stylelint@16.6.1(typescript@5.3.3))
       typescript:
         specifier: ^5
         version: 5.3.3
@@ -1680,10 +1680,6 @@ packages:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postcss@8.4.35:
-    resolution: {integrity: sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==}
-    engines: {node: ^10 || ^12 || >=14}
-
   postcss@8.4.38:
     resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
     engines: {node: ^10 || ^12 || >=14}
@@ -1947,10 +1943,10 @@ packages:
       babel-plugin-macros:
         optional: true
 
-  stylelint-config-recess-order@4.6.0:
-    resolution: {integrity: sha512-V76fhv3YtcNXh/hyAuAdSzi5FmcrG54Mp2AThJ3D/PTMTSYzUPd7GIhP6z9mTqnRhmkk6YTfcu/JWB8h+Yrcaw==}
+  stylelint-config-recess-order@5.0.1:
+    resolution: {integrity: sha512-rKbGkoa3h0rINrGln9TFVowvSCLgPJC5O0EuPiqlqWcJMb1lImEtXktcjFCVz+hwtSUiHD3ijJc3vP9muFOgJg==}
     peerDependencies:
-      stylelint: '>=15'
+      stylelint: '>=16'
 
   stylelint-config-recommended-scss@14.0.0:
     resolution: {integrity: sha512-HDvpoOAQ1RpF+sPbDOT2Q2/YrBDEJDnUymmVmZ7mMCeNiFSdhRdyGEimBkz06wsN+HaFwUh249gDR+I9JR7Onw==}
@@ -4023,28 +4019,22 @@ snapshots:
     dependencies:
       postcss: 8.4.38
 
-  postcss-scss@4.0.9(postcss@8.4.35):
+  postcss-scss@4.0.9(postcss@8.4.38):
     dependencies:
-      postcss: 8.4.35
+      postcss: 8.4.38
 
   postcss-selector-parser@6.1.0:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  postcss-sorting@8.0.2(postcss@8.4.35):
+  postcss-sorting@8.0.2(postcss@8.4.38):
     dependencies:
-      postcss: 8.4.35
+      postcss: 8.4.38
 
   postcss-value-parser@4.2.0: {}
 
   postcss@8.4.31:
-    dependencies:
-      nanoid: 3.3.7
-      picocolors: 1.0.0
-      source-map-js: 1.2.0
-
-  postcss@8.4.35:
     dependencies:
       nanoid: 3.3.7
       picocolors: 1.0.0
@@ -4337,31 +4327,31 @@ snapshots:
       client-only: 0.0.1
       react: 18.3.1
 
-  stylelint-config-recess-order@4.6.0(stylelint@16.6.1(typescript@5.3.3)):
+  stylelint-config-recess-order@5.0.1(stylelint@16.6.1(typescript@5.3.3)):
     dependencies:
       stylelint: 16.6.1(typescript@5.3.3)
       stylelint-order: 6.0.4(stylelint@16.6.1(typescript@5.3.3))
 
-  stylelint-config-recommended-scss@14.0.0(postcss@8.4.35)(stylelint@16.6.1(typescript@5.3.3)):
+  stylelint-config-recommended-scss@14.0.0(postcss@8.4.38)(stylelint@16.6.1(typescript@5.3.3)):
     dependencies:
-      postcss-scss: 4.0.9(postcss@8.4.35)
+      postcss-scss: 4.0.9(postcss@8.4.38)
       stylelint: 16.6.1(typescript@5.3.3)
       stylelint-config-recommended: 14.0.0(stylelint@16.6.1(typescript@5.3.3))
       stylelint-scss: 6.1.0(stylelint@16.6.1(typescript@5.3.3))
     optionalDependencies:
-      postcss: 8.4.35
+      postcss: 8.4.38
 
   stylelint-config-recommended@14.0.0(stylelint@16.6.1(typescript@5.3.3)):
     dependencies:
       stylelint: 16.6.1(typescript@5.3.3)
 
-  stylelint-config-standard-scss@13.1.0(postcss@8.4.35)(stylelint@16.6.1(typescript@5.3.3)):
+  stylelint-config-standard-scss@13.1.0(postcss@8.4.38)(stylelint@16.6.1(typescript@5.3.3)):
     dependencies:
       stylelint: 16.6.1(typescript@5.3.3)
-      stylelint-config-recommended-scss: 14.0.0(postcss@8.4.35)(stylelint@16.6.1(typescript@5.3.3))
+      stylelint-config-recommended-scss: 14.0.0(postcss@8.4.38)(stylelint@16.6.1(typescript@5.3.3))
       stylelint-config-standard: 36.0.0(stylelint@16.6.1(typescript@5.3.3))
     optionalDependencies:
-      postcss: 8.4.35
+      postcss: 8.4.38
 
   stylelint-config-standard@36.0.0(stylelint@16.6.1(typescript@5.3.3)):
     dependencies:
@@ -4370,8 +4360,8 @@ snapshots:
 
   stylelint-order@6.0.4(stylelint@16.6.1(typescript@5.3.3)):
     dependencies:
-      postcss: 8.4.35
-      postcss-sorting: 8.0.2(postcss@8.4.35)
+      postcss: 8.4.38
+      postcss-sorting: 8.0.2(postcss@8.4.38)
       stylelint: 16.6.1(typescript@5.3.3)
 
   stylelint-scss@6.1.0(stylelint@16.6.1(typescript@5.3.3)):
