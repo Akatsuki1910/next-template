@@ -1,0 +1,33 @@
+name: ci-check
+
+on:
+  pull_request:
+    branches:
+      - develop
+      - main
+
+jobs:
+  ci-check:
+    runs-on: ubuntu-latest
+    # if: ${{ github.actor != 'dependabot[bot]' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+          cache: 'pnpm'
+
+      - name: Install packages
+        run: pnpm install
+      - name: Lint Check
+        run: pnpm run lint
+      - name: Build Check
+        run: pnpm run  build
+  deploy:
+    if: ${{ github.actor == 'dependabot[bot]' }}
+    needs: ci-check
+    uses: ./.github/workflows/deploy.yml
