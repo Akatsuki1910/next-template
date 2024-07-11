@@ -119,7 +119,7 @@
     "import/no-unused-modules": [
       "error",
       {
-        "ignoreExports": ["**/*.d.ts", "**/page.tsx", "**/layout.tsx"],
+        "ignoreExports": ["**/page.tsx", "**/layout.tsx"],
         "unusedExports": true
       }
     ],
