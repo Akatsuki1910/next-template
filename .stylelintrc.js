@@ -3,5 +3,5 @@ module.exports = {
   rules: {
     'selector-pseudo-element-colon-notation': 'double',
   },
-  ignoreFiles: ['**/node_modules/**'],
+  ignoreFiles: ['**/node_modules/**', '**/dist/**'],
 };
