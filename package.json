@@ -36,7 +36,7 @@
     "eslint-plugin-unused-imports": "^4.1.4",
     "eslint-webpack-plugin": "^4.2.0",
     "prettier": "^3.3.3",
-    "sass": "^1.80.2",
+    "sass": "^1.80.3",
     "stylelint": "^16.10.0",
     "stylelint-config-recess-order": "^5.1.1",
     "stylelint-config-standard-scss": "^13.1.0",
