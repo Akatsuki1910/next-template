@@ -23,7 +23,7 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^22
-        version: 22.7.9
+        version: 22.8.1
       '@types/react':
         specifier: ^18
         version: 18.3.12
@@ -476,8 +476,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.7.9':
-    resolution: {integrity: sha512-jrTfRC7FM6nChvU7X2KqcrgquofrWLFDeYC1hKfwNWomVvrn7JIksqf344WN2X/y8xrgqBd2dJATZV4GbatBfg==}
+  '@types/node@22.8.1':
+    resolution: {integrity: sha512-k6Gi8Yyo8EtrNtkHXutUu2corfDf9su95VYVP10aGYMMROM6SAItZi0w1XszA6RtWTHSVp5OeFof37w0IEqCQg==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2297,8 +2297,8 @@ packages:
   unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
 
-  undici-types@6.19.6:
-    resolution: {integrity: sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==}
+  undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
   update-browserslist-db@1.1.1:
     resolution: {integrity: sha512-R8UzCaa9Az+38REPiJ1tXlImTJXlVfgHZsglwBD/k6nj76ctsH1E3q4doGrukiLQd3sGQYu56r5+lo5r94l29A==}
@@ -2525,7 +2525,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 22.7.9
+      '@types/node': 22.8.1
       '@types/yargs': 17.0.32
       chalk: 4.1.2
 
@@ -2689,9 +2689,9 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.7.9':
+  '@types/node@22.8.1':
     dependencies:
-      undici-types: 6.19.6
+      undici-types: 6.19.8
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -3965,7 +3965,7 @@ snapshots:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 22.7.9
+      '@types/node': 22.8.1
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -3973,13 +3973,13 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.7.9
+      '@types/node': 22.8.1
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
   jest-worker@29.7.0:
     dependencies:
-      '@types/node': 22.7.9
+      '@types/node': 22.8.1
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -4803,7 +4803,7 @@ snapshots:
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
 
-  undici-types@6.19.6: {}
+  undici-types@6.19.8: {}
 
   update-browserslist-db@1.1.1(browserslist@4.24.0):
     dependencies:
