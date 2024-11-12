@@ -52,6 +52,26 @@
           }
         ]
       }
+    },
+    {
+      "files": ["**/not-found.tsx"],
+      "rules": {
+        "import/no-unused-modules": "off",
+        "import/no-default-export": "off",
+        "import/prefer-default-export": "error",
+        "unicorn/filename-case": [
+          "error",
+          {
+            "case": "kebabCase"
+          }
+        ]
+      }
+    },
+    {
+      "files": ["**/app/api/**/route.ts", "**/middleware.ts"],
+      "rules": {
+        "import/no-unused-modules": "off"
+      }
     }
   ],
   "parserOptions": {
