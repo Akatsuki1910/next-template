@@ -26,10 +26,10 @@ importers:
         version: 22.10.5
       '@types/react':
         specifier: ^19
-        version: 19.0.4
+        version: 19.0.6
       '@types/react-dom':
         specifier: ^19
-        version: 19.0.3(@types/react@19.0.4)
+        version: 19.0.3(@types/react@19.0.6)
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.18.0
         version: 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.7.3))(eslint@8.57.1)(typescript@5.7.3)
@@ -490,8 +490,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.0.4':
-    resolution: {integrity: sha512-3O4QisJDYr1uTUMZHA2YswiQZRq+Pd8D+GdVFYikTutYsTz+QZgWkAPnP7rx9txoI6EXKcPiluMqWPFV3tT9Wg==}
+  '@types/react@19.0.6':
+    resolution: {integrity: sha512-gIlMztcTeDgXCUj0vCBOqEuSEhX//63fW9SZtCJ+agxoQTOklwDfiEMlTWn4mR/C/UK5VHlpwsCsOyf7/hc4lw==}
 
   '@types/yargs-parser@21.0.3':
     resolution: {integrity: sha512-I4q9QU9MQv4oEOz4tAHJtNz1cwuLxn2F3xcc2iV5WdqLPpUnj30aUuxt1mAxYTG+oe8CZMV/+6rU4S4gRDzqtQ==}
@@ -2708,11 +2708,11 @@ snapshots:
 
   '@types/normalize-package-data@2.4.4': {}
 
-  '@types/react-dom@19.0.3(@types/react@19.0.4)':
+  '@types/react-dom@19.0.3(@types/react@19.0.6)':
     dependencies:
-      '@types/react': 19.0.4
+      '@types/react': 19.0.6
 
-  '@types/react@19.0.4':
+  '@types/react@19.0.6':
     dependencies:
       csstype: 3.1.3
 
