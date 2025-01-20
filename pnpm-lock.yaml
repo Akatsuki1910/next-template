@@ -70,8 +70,8 @@ importers:
         specifier: ^16.13.2
         version: 16.13.2(typescript@5.7.3)
       stylelint-config-recess-order:
-        specifier: ^5.1.1
-        version: 5.1.1(stylelint@16.13.2(typescript@5.7.3))
+        specifier: ^6.0.0
+        version: 6.0.0(stylelint@16.13.2(typescript@5.7.3))
       stylelint-config-standard-scss:
         specifier: ^14.0.0
         version: 14.0.0(postcss@8.5.1)(stylelint@16.13.2(typescript@5.7.3))
@@ -796,6 +796,9 @@ packages:
   callsites@3.1.0:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
+
+  caniuse-lite@1.0.30001695:
+    resolution: {integrity: sha512-vHyLade6wTgI2u1ec3WQBxv+2BrTERV28UXQu9LO6lZ9pYeMk34vjXFLOxo1A4UBA8XTL4njRQZdno/yYaSmWw==}
 
   caniuse-lite@1.0.30001695:
     resolution: {integrity: sha512-vHyLade6wTgI2u1ec3WQBxv+2BrTERV28UXQu9LO6lZ9pYeMk34vjXFLOxo1A4UBA8XTL4njRQZdno/yYaSmWw==}
@@ -2179,8 +2182,8 @@ packages:
       babel-plugin-macros:
         optional: true
 
-  stylelint-config-recess-order@5.1.1:
-    resolution: {integrity: sha512-eDAHWVBelzDbMbdMj15pSw0Ycykv5eLeriJdbGCp0zd44yvhgZLI+wyVHegzXp5NrstxTPSxl0fuOVKdMm0XLA==}
+  stylelint-config-recess-order@6.0.0:
+    resolution: {integrity: sha512-1KqrttqpIrCYFAVQ1/bbgXo7EvvcjmkxxmnzVr+U66Xr2OlrNZqQ5+44Tmct6grCWY6wGTIBh2tSANqcmwIM2g==}
     peerDependencies:
       stylelint: '>=16'
 
@@ -3148,6 +3151,8 @@ snapshots:
       set-function-length: 1.2.1
 
   callsites@3.1.0: {}
+
+  caniuse-lite@1.0.30001695: {}
 
   caniuse-lite@1.0.30001695: {}
 
@@ -4687,7 +4692,7 @@ snapshots:
       client-only: 0.0.1
       react: 19.0.0
 
-  stylelint-config-recess-order@5.1.1(stylelint@16.13.2(typescript@5.7.3)):
+  stylelint-config-recess-order@6.0.0(stylelint@16.13.2(typescript@5.7.3)):
     dependencies:
       stylelint: 16.13.2(typescript@5.7.3)
       stylelint-order: 6.0.4(stylelint@16.13.2(typescript@5.7.3))
