@@ -10,7 +10,7 @@ importers:
     dependencies:
       next:
         specifier: 16.0.7
-        version: 16.0.7(react-dom@19.1.0(react@19.2.1))(react@19.2.1)(sass@1.87.0)
+        version: 16.0.7(react-dom@19.1.0(react@19.2.1))(react@19.2.1)(sass@1.94.2)
       react:
         specifier: ^19
         version: 19.2.1
@@ -64,8 +64,8 @@ importers:
         specifier: ^3.5.3
         version: 3.5.3
       sass:
-        specifier: ^1.87.0
-        version: 1.87.0
+        specifier: ^1.94.2
+        version: 1.94.2
       stylelint:
         specifier: ^16.26.1
         version: 16.26.1(typescript@5.9.3)
@@ -1486,8 +1486,8 @@ packages:
     resolution: {integrity: sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==}
     engines: {node: '>= 4'}
 
-  immutable@5.1.1:
-    resolution: {integrity: sha512-3jatXi9ObIsPGr3N5hGw/vWWcTkq6hUYhpQz4k0wLC+owqWi/LiugIw9x0EdNZ2yGedKN/HzePiBvaJRXa0Ujg==}
+  immutable@5.1.4:
+    resolution: {integrity: sha512-p6u1bG3YSnINT5RQmx/yRZBpenIl30kVxkTLDyHLIMk0gict704Q9n+thfDI7lTRm9vXdDYutVzXhzcThxTnXA==}
 
   import-fresh@3.3.1:
     resolution: {integrity: sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==}
@@ -2127,8 +2127,8 @@ packages:
     resolution: {integrity: sha512-x/+Cz4YrimQxQccJf5mKEbIa1NzeCRNI5Ecl/ekmlYaampdNLPalVyIcCZNNH3MvmqBugV5TMYZXv0ljslUlaw==}
     engines: {node: '>= 0.4'}
 
-  sass@1.87.0:
-    resolution: {integrity: sha512-d0NoFH4v6SjEK7BoX810Jsrhj7IQSYHAHLi/iSpgqKc7LaIDshFRlSg5LOymf9FqQhxEHs2W5ZQXlvy0KD45Uw==}
+  sass@1.94.2:
+    resolution: {integrity: sha512-N+7WK20/wOr7CzA2snJcUSSNTCzeCGUTFY3OgeQP3mZ1aj9NMQ0mSTXwlrnd89j33zzQJGqIN52GIOmYrfq46A==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -4079,7 +4079,7 @@ snapshots:
 
   ignore@7.0.5: {}
 
-  immutable@5.1.1: {}
+  immutable@5.1.4: {}
 
   import-fresh@3.3.1:
     dependencies:
@@ -4391,7 +4391,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next@16.0.7(react-dom@19.1.0(react@19.2.1))(react@19.2.1)(sass@1.87.0):
+  next@16.0.7(react-dom@19.1.0(react@19.2.1))(react@19.2.1)(sass@1.94.2):
     dependencies:
       '@next/env': 16.0.7
       '@swc/helpers': 0.5.15
@@ -4409,7 +4409,7 @@ snapshots:
       '@next/swc-linux-x64-musl': 16.0.7
       '@next/swc-win32-arm64-msvc': 16.0.7
       '@next/swc-win32-x64-msvc': 16.0.7
-      sass: 1.87.0
+      sass: 1.94.2
       sharp: 0.34.5
     transitivePeerDependencies:
       - '@babel/core'
@@ -4701,10 +4701,10 @@ snapshots:
       es-errors: 1.3.0
       is-regex: 1.2.1
 
-  sass@1.87.0:
+  sass@1.94.2:
     dependencies:
       chokidar: 4.0.3
-      immutable: 5.1.1
+      immutable: 5.1.4
       source-map-js: 1.2.1
     optionalDependencies:
       '@parcel/watcher': 2.5.1
