@@ -16,18 +16,18 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "16.0.7",
-    "react": "^19",
-    "react-dom": "^19",
+    "next": "16.0.8",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
     "ress": "^5.0.2"
   },
   "devDependencies": {
-    "@types/node": "^24",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/node": "^24.10.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
-    "eslint": "^8",
+    "eslint": "^8.57.1",
     "eslint-config-next": "15.5.7",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",
@@ -36,11 +36,11 @@
     "eslint-plugin-unused-imports": "^4.3.0",
     "eslint-webpack-plugin": "^5.0.2",
     "prettier": "^3.7.4",
-    "sass": "^1.95.0",
+    "sass": "^1.96.0",
     "stylelint": "^16.26.1",
     "stylelint-config-recess-order": "^6.1.0",
     "stylelint-config-standard-scss": "^16.0.0",
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   },
   "engines": {
     "npm": "PLEASE USE PNPM",
