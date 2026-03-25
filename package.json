@@ -5,12 +5,12 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "lint": "pnpm run lint:eslint --quiet && pnpm run lint:stylelint --quiet",
+    "lint": "npm run lint:eslint --quiet && npm run lint:stylelint --quiet",
     "lint:eslint": "eslint \"./**/*.?(ts|tsx|js)\"",
-    "lint:eslint:fix": "pnpm run lint:eslint --fix",
-    "lint:fix": "pnpm run lint:eslint:fix && pnpm run lint:stylelint:fix",
+    "lint:eslint:fix": "npm run lint:eslint --fix",
+    "lint:fix": "npm run lint:eslint:fix && npm run lint:stylelint:fix",
     "lint:stylelint": "stylelint '**/*.{css,scss}'",
-    "lint:stylelint:fix": "pnpm run lint:stylelint --fix",
+    "lint:stylelint:fix": "npm run lint:stylelint --fix",
     "prettier": "prettier --write ./",
     "prettier:check": "prettier --check ./",
     "start": "next start"
@@ -43,7 +43,6 @@
     "typescript": "^5.9.3"
   },
   "engines": {
-    "npm": "PLEASE USE PNPM",
     "yarn": "PLEASE USE PNPM"
   }
 }
