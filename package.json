@@ -36,7 +36,7 @@
     "stylelint": "^17.8.0",
     "stylelint-config-recess-order": "^7.7.0",
     "stylelint-config-standard-scss": "^17.0.0",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.3"
   },
   "engines": {
     "yarn": "PLEASE USE NPM"
